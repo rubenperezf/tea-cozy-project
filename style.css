@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  background-color: black;
+}
+header {
+  height: 69px;
+  width: 100%;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  text-decoration: underline;
+}
+li {
+  padding: 0 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+.logo {
+  flex-grow: 4;
+}
+
+main {
+  width: 1200px;
+  height: 700px;
+  margin: auto;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  display: flex;
+  align-items: center;
+}
+.phrases {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.words {
+  margin: auto auto;
+  width: 1000px;
+  text-align: center;
+  padding: 50px 0px;
+}
+.words h2 {
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+.store {
+  margin: auto auto;
+  width: 1000px;
+  display: flex;
+
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.products img {
+  width: 300px;
+  height: 200px;
+  padding: 10px 10px;
+}
+.products h5 {
+  text-align: center;
+}
+.locations {
+  width: 1200px;
+  height: 500px;
+  margin: 10px auto;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.stores-element {
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+}
+
+.stores-element h5,
+.stores-element p {
+  padding: 20px 10px;
+  text-align: center;
+}
+.locations h2 {
+  position: relative;
+  bottom: 200px;
+  left: 45%;
+  background-color: transparent;
+}
+footer {
+  text-align: center;
+  margin: 20px 10px;
+}
+footer h2,
+footer p {
+  padding: 20px 0px;
+}
+.copyright {
+  text-align: left;
+}
